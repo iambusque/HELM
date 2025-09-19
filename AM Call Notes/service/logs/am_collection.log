@@ -1,0 +1,21 @@
+2025-09-19 03:13:24,938 - INFO - Loaded configuration from service/weekly_collection_config.yaml
+2025-09-19 03:13:24,939 - INFO - ============================================================
+2025-09-19 03:13:24,939 - INFO - Starting weekly AM notes collection
+2025-09-19 03:13:24,939 - INFO - ============================================================
+2025-09-19 03:13:24,939 - INFO - Collection period: 2025-09-08 to 2025-09-14
+2025-09-19 03:13:24,939 - INFO - Archiving previous week's files...
+2025-09-19 03:13:24,940 - INFO - Searching Confluence using MCP tools for date range: 2025-09-08 to 2025-09-14
+2025-09-19 03:13:24,940 - INFO - Call notes CQL: space = "SAL" AND (title ~ "call notes" OR title ~ "Call Notes") AND lastModified >= "2025-09-08" AND lastModified <= "2025-09-14 23:59:59"
+2025-09-19 03:13:24,940 - INFO - MCP tool integration - using simulation mode in Actions environment
+2025-09-19 03:13:24,940 - INFO - Using simulated data for testing - replace with real MCP integration
+2025-09-19 03:13:24,940 - INFO - Total notes collected: 2
+2025-09-19 03:13:24,940 - INFO - Found 2 total notes
+2025-09-19 03:13:24,940 - INFO - Organized notes for 2 active AMs
+2025-09-19 03:13:24,940 - INFO - Generated: Jonah Vos/Call_Notes_2025-09-08_to_2025-09-14.md
+2025-09-19 03:13:24,940 - INFO - Generated: Janie Snyders/Call_Notes_2025-09-08_to_2025-09-14.md
+2025-09-19 03:13:24,940 - INFO - Generated summary: AM_Notes_Summary_2025-09-08_to_2025-09-14.md
+2025-09-19 03:13:24,940 - INFO - Notifications not implemented - would send email summary
+2025-09-19 03:13:24,941 - INFO - ============================================================
+2025-09-19 03:13:24,941 - INFO - Weekly collection completed successfully in 0.0 seconds
+2025-09-19 03:13:24,941 - INFO - Generated 2 AM files and 1 summary file
+2025-09-19 03:13:24,941 - INFO - ============================================================

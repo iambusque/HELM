@@ -1,0 +1,25 @@
+{
+  "httpEnabled": true,
+  "httpPort": 3001,
+  "httpsEnabled": true,
+  "httpsPort": 3443,
+  "certificateConfig": {
+    "enabled": true,
+    "selfSigned": true,
+    "autoGenerate": true,
+    "rejectUnauthorized": false,
+    "minTLSVersion": "TLSv1.2",
+    "certPath": "C:\\Users\\andre.busque\\OneDrive - Volaris Group\\Desktop\\Palantir\\HELM\\.obsidian\\plugins\\semantic-vault-mcp\\certificates\\default.crt",
+    "keyPath": "C:\\Users\\andre.busque\\OneDrive - Volaris Group\\Desktop\\Palantir\\HELM\\.obsidian\\plugins\\semantic-vault-mcp\\certificates\\default.key"
+  },
+  "debugLogging": false,
+  "showConnectionStatus": true,
+  "autoDetectPortConflicts": true,
+  "enableConcurrentSessions": false,
+  "maxConcurrentConnections": 32,
+  "apiKey": "YkJAlRCrOdqn8Qw4FmoehQwOo566madPj2fsxG-b_jY",
+  "dangerouslyDisableAuth": true,
+  "readOnlyMode": false,
+  "pathExclusionsEnabled": false,
+  "enableIgnoreContextMenu": false
+}

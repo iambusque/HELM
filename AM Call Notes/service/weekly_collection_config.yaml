@@ -1,0 +1,66 @@
+service:
+  name: "Weekly AM Notes Collection"
+  schedule: "0 9 * * 1"  # Every Monday at 9 AM
+  
+data_sources:
+  confluence:
+    base_url: "https://edocgroup.atlassian.net"
+    spaces:
+      - "SAL"  # Sales space for call notes
+      - "CS"   # Client Services space for daily digests
+    search_patterns:
+      call_notes: "title ~ \"call notes\" OR title ~ \"Call Notes\""
+      daily_digests: "title ~ \"Daily Digest\""
+  
+output:
+  base_path: "c:\\Users\\andre.busque\\OneDrive - Volaris Group\\Desktop\\Palantir\\HELM\\AM Call Notes"
+  archive_previous: true
+  generate_summary: true
+  
+account_managers:
+  primary_sales:
+    - "Jonah Vos"
+    - "Marco Wilson" 
+    - "Andrew Watson"
+    - "Ted Hobby"
+    - "Jonathan Mann"
+  regional:
+    - "Nimish Bajaj"
+    - "Diego Vasquez"
+    - "Alex Beiza"
+    - "Vinicius Beato"
+    - "Nathan"
+  client_services:
+    - "Carmen Mazzarelli"
+    - "Chris Grayson"
+    - "Justin Bonnieux"
+    - "Janie Snyders"
+    - "James Duerksen"
+    - "Owen Duckett"
+    - "Sebastian Beiza"
+    - "Wyatt Robinson"
+    - "RPJ"
+    - "Nigel Dufty"
+
+notifications:
+  enabled: true
+  email: "andre.busque@helmoperations.com"
+  summary_only: true
+  
+search_config:
+  date_range_days: 7
+  max_results_per_search: 100
+  include_modified: true
+  content_types:
+    - "page"
+    - "database"
+    
+filters:
+  exclude_patterns:
+    - "template"
+    - "example"
+    - "test"
+  min_content_length: 100
+  required_fields:
+    - "title"
+    - "lastModified"

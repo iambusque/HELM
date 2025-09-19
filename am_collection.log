@@ -1,0 +1,19 @@
+2025-09-19 03:05:47,845 - INFO - Loaded configuration from service/weekly_collection_config.yaml
+2025-09-19 03:05:47,847 - INFO - ============================================================
+2025-09-19 03:05:47,847 - INFO - Starting weekly AM notes collection
+2025-09-19 03:05:47,847 - INFO - ============================================================
+2025-09-19 03:05:47,847 - INFO - Collection period: 2025-09-08 to 2025-09-14
+2025-09-19 03:05:47,847 - INFO - Archiving previous week's files...
+2025-09-19 03:05:47,847 - INFO - Searching Confluence using MCP tools for date range: 2025-09-08 to 2025-09-14
+2025-09-19 03:05:47,847 - INFO - Call notes CQL: space = "SAL" AND (title ~ "call notes" OR title ~ "Call Notes") AND lastModified >= "2025-09-08" AND lastModified <= "2025-09-14 23:59:59"
+2025-09-19 03:05:47,848 - INFO - Daily digest CQL: space = "CS" AND title ~ "Daily Digest" AND lastModified >= "2025-09-08" AND lastModified <= "2025-09-14 23:59:59"
+2025-09-19 03:05:47,848 - WARNING - MCP integration template - replace with actual mcp_atlassian_* tool calls
+2025-09-19 03:05:47,848 - INFO - Would search for notes between 2025-09-08 and 2025-09-14 using cloud_id: 05fe7108-c795-4295-8062-b43ad1f2e363
+2025-09-19 03:05:47,848 - INFO - Found 0 total notes
+2025-09-19 03:05:47,848 - INFO - Organized notes for 0 active AMs
+2025-09-19 03:05:47,848 - INFO - Generated summary: c:\Users\andre.busque\OneDrive - Volaris Group\Desktop\Palantir\HELM\AM Call Notes/AM_Notes_Summary_2025-09-08_to_2025-09-14.md
+2025-09-19 03:05:47,848 - INFO - Notifications not implemented - would send email summary
+2025-09-19 03:05:47,848 - INFO - ============================================================
+2025-09-19 03:05:47,848 - INFO - Weekly collection completed successfully in 0.0 seconds
+2025-09-19 03:05:47,848 - INFO - Generated 0 AM files and 1 summary file
+2025-09-19 03:05:47,848 - INFO - ============================================================

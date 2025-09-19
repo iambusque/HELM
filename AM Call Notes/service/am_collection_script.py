@@ -297,7 +297,10 @@ class AMNotesCollector:
         
         for am_name, notes in organized_notes.items():
             filename = f"Call_Notes_{start_date}_to_{end_date}.md"
-            filepath = self.base_path / am_name / filename
+            # Use relative path instead of absolute path
+            am_dir = self.base_path / am_name
+            am_dir.mkdir(exist_ok=True)
+            filepath = am_dir / filename
             
             content = self.format_am_notes(am_name, notes, start_date, end_date)
             

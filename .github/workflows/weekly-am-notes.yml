@@ -1,5 +1,10 @@
 name: Weekly AM Notes Collection
 
+# Grant necessary permissions for the workflow
+permissions:
+  contents: write
+  issues: write
+
 on:
   schedule:
     - cron: '0 9 * * 1'  # Every Monday at 9 AM UTC

@@ -172,6 +172,7 @@
   },
   "active": "ddfa8aca72ee61af",
   "lastOpenFiles": [
+    "am_collection.log",
     "AM Call Notes/service/NEXT_STEPS.md",
     "AM Call Notes/service/README_GH_ACTIONS_DEPLOY.md",
     "AM Call Notes/service/weekly_am_collection.ps1",
@@ -207,7 +208,6 @@
     "1.34/Release Notes/Jira Tickets/Retention/CD-24995.md",
     "1.34/Release Notes/Jira Tickets/Retention/CD-24998.md",
     "1.34/Release Notes/Jira Tickets/Retention/CD-24996.md",
-    "1.34/Release Notes/Jira Tickets/Creator/CD-29908 1.md",
     "1.34/Release Notes/Untitled.canvas"
   ]
 }

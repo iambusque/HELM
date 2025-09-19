@@ -13,7 +13,7 @@ data_sources:
       daily_digests: "title ~ \"Daily Digest\""
   
 output:
-  base_path: "c:\\Users\\andre.busque\\OneDrive - Volaris Group\\Desktop\\Palantir\\HELM\\AM Call Notes"
+  base_path: "."  # Use current directory (AM Call Notes)
   archive_previous: true
   generate_summary: true
   

@@ -355,3 +355,24 @@
 2026-01-05 09:07:31,564 - INFO - Weekly collection completed successfully in 0.0 seconds
 2026-01-05 09:07:31,564 - INFO - Generated 2 AM files and 1 summary file
 2026-01-05 09:07:31,564 - INFO - ============================================================
+2026-01-12 09:07:48,735 - INFO - Loaded configuration from service/weekly_collection_config.yaml
+2026-01-12 09:07:48,736 - INFO - ============================================================
+2026-01-12 09:07:48,736 - INFO - Starting weekly AM notes collection
+2026-01-12 09:07:48,736 - INFO - ============================================================
+2026-01-12 09:07:48,737 - INFO - Collection period: 2026-01-05 to 2026-01-11
+2026-01-12 09:07:48,737 - INFO - Archiving previous week's files...
+2026-01-12 09:07:48,737 - INFO - Searching Confluence using MCP tools for date range: 2026-01-05 to 2026-01-11
+2026-01-12 09:07:48,737 - INFO - Call notes CQL: space = "SAL" AND (title ~ "call notes" OR title ~ "Call Notes") AND lastModified >= "2026-01-05" AND lastModified <= "2026-01-11 23:59:59"
+2026-01-12 09:07:48,737 - INFO - MCP tool integration - using simulation mode in Actions environment
+2026-01-12 09:07:48,737 - INFO - Using simulated data for testing - replace with real MCP integration
+2026-01-12 09:07:48,738 - INFO - Total notes collected: 2
+2026-01-12 09:07:48,738 - INFO - Found 2 total notes
+2026-01-12 09:07:48,738 - INFO - Organized notes for 2 active AMs
+2026-01-12 09:07:48,738 - INFO - Generated: Jonah Vos/Call_Notes_2026-01-05_to_2026-01-11.md
+2026-01-12 09:07:48,738 - INFO - Generated: Janie Snyders/Call_Notes_2026-01-05_to_2026-01-11.md
+2026-01-12 09:07:48,738 - INFO - Generated summary: AM_Notes_Summary_2026-01-05_to_2026-01-11.md
+2026-01-12 09:07:48,738 - INFO - Notifications not implemented - would send email summary
+2026-01-12 09:07:48,738 - INFO - ============================================================
+2026-01-12 09:07:48,738 - INFO - Weekly collection completed successfully in 0.0 seconds
+2026-01-12 09:07:48,739 - INFO - Generated 2 AM files and 1 summary file
+2026-01-12 09:07:48,739 - INFO - ============================================================
